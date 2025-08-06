@@ -239,6 +239,10 @@
     {
       "date": "2025-08-06T13:25:00",
       "message": "chore: integrate Sentry for backend error tracking"
+    },
+    {
+      "date": "2025-08-06T13:25:00",
+      "message": "chore: initialize FastAPI application with uvicorn"
     }
   ],
   "last_commit_date": "2025-08-06T13:25:00"

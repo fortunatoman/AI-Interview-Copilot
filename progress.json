@@ -243,6 +243,10 @@
     {
       "date": "2025-08-06T13:25:00",
       "message": "chore: initialize FastAPI application with uvicorn"
+    },
+    {
+      "date": "2025-08-06T13:25:00",
+      "message": "chore: add Pydantic models for request/response schemas"
     }
   ],
   "last_commit_date": "2025-08-06T13:25:00"

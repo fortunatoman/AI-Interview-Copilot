@@ -227,6 +227,10 @@
     {
       "date": "2025-08-01T11:15:00",
       "message": "chore: set up Bull queue for background job processing"
+    },
+    {
+      "date": "2025-08-01T11:15:00",
+      "message": "chore: configure multer for file upload handling"
     }
   ],
   "last_commit_date": "2025-08-01T11:15:00"

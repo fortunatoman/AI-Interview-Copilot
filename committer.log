@@ -353,3 +353,7 @@
 2026-02-24 09:08:41,462 - INFO - [OK] Commit created: feat: create reviews table with rating constraints
 2026-02-24 09:08:43,816 - INFO - Pushed to GitHub: master
 2026-02-24 09:08:44,818 - INFO - Modified 3 files
+2026-02-24 09:08:45,819 - INFO - Created commit: feat: add notifications table with read/unread sta...
+2026-02-24 09:08:45,820 - INFO - [OK] Commit created: feat: add notifications table with read/unread status
+2026-02-24 09:08:48,027 - INFO - Pushed to GitHub: master
+2026-02-24 09:08:49,031 - INFO - Modified 3 files

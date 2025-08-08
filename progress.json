@@ -435,6 +435,10 @@
     {
       "date": "2025-08-08T12:03:00",
       "message": "feat: add logout and token revocation"
+    },
+    {
+      "date": "2025-08-08T12:03:00",
+      "message": "feat: implement forgot password with email link"
     }
   ],
   "last_commit_date": "2025-08-08T12:03:00"

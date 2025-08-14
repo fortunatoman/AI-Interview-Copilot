@@ -693,3 +693,7 @@
 2026-02-24 09:17:27,186 - INFO - [OK] Commit created: feat(categories): implement CRUD endpoints for categories
 2026-02-24 09:17:29,643 - INFO - Pushed to GitHub: master
 2026-02-24 09:17:30,645 - INFO - Modified 3 files
+2026-02-24 09:17:32,873 - INFO - Created commit: feat(categories): add nested category tree endpoin...
+2026-02-24 09:17:32,875 - INFO - [OK] Commit created: feat(categories): add nested category tree endpoint
+2026-02-24 09:17:35,299 - INFO - Pushed to GitHub: master
+2026-02-24 09:17:36,302 - INFO - Modified 3 files

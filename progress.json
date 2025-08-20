@@ -959,6 +959,10 @@
     {
       "date": "2025-08-20T14:16:00",
       "message": "feat(notifications): implement email notification templates"
+    },
+    {
+      "date": "2025-08-20T14:16:00",
+      "message": "feat(notifications): add notification preference settings"
     }
   ],
   "last_commit_date": "2025-08-20T14:16:00"

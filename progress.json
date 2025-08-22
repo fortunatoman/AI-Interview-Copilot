@@ -991,6 +991,10 @@
     {
       "date": "2025-08-22T14:28:00",
       "message": "feat(media): add file type and size validation on upload"
+    },
+    {
+      "date": "2025-08-22T14:28:00",
+      "message": "feat(media): implement delete file from S3 and database"
     }
   ],
   "last_commit_date": "2025-08-22T14:28:00"

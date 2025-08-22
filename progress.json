@@ -999,6 +999,10 @@
     {
       "date": "2025-08-22T14:28:00",
       "message": "feat(media): add video upload support with processing queue"
+    },
+    {
+      "date": "2025-08-22T14:28:00",
+      "message": "feat(media): implement CDN integration for static assets"
     }
   ],
   "last_commit_date": "2025-08-22T14:28:00"

@@ -1335,6 +1335,10 @@
     {
       "date": "2025-09-04T12:02:00",
       "message": "perf: add useMemo and useCallback optimization"
+    },
+    {
+      "date": "2025-09-04T12:02:00",
+      "message": "perf: implement virtual scrolling for large lists"
     }
   ],
   "last_commit_date": "2025-09-04T12:02:00"

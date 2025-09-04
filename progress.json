@@ -1307,6 +1307,10 @@
     {
       "date": "2025-09-04T12:02:00",
       "message": "feat(home): implement countdown timer for deals"
+    },
+    {
+      "date": "2025-09-04T12:02:00",
+      "message": "feat(theme): implement dark mode toggle with system preference detection"
     }
   ],
   "last_commit_date": "2025-09-04T12:02:00"

@@ -1327,6 +1327,10 @@
     {
       "date": "2025-09-04T12:02:00",
       "message": "feat(theme): add RTL (right-to-left) layout support"
+    },
+    {
+      "date": "2025-09-04T12:02:00",
+      "message": "perf: implement React.memo for expensive components"
     }
   ],
   "last_commit_date": "2025-09-04T12:02:00"

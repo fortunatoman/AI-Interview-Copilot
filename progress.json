@@ -1299,7 +1299,11 @@
     {
       "date": "2025-09-03T13:36:00",
       "message": "feat(home): implement newsletter subscription section"
+    },
+    {
+      "date": "2025-09-04T12:02:00",
+      "message": "feat(home): add promotional banner component"
     }
   ],
-  "last_commit_date": "2025-09-03T13:36:00"
+  "last_commit_date": "2025-09-04T12:02:00"
 }

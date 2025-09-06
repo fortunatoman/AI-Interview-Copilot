@@ -1507,6 +1507,10 @@
     {
       "date": "2025-09-06T12:50:00",
       "message": "ci: add automated database migration in deployment pipeline"
+    },
+    {
+      "date": "2025-09-06T12:50:00",
+      "message": "ci: implement smoke tests after deployment"
     }
   ],
   "last_commit_date": "2025-09-06T12:50:00"

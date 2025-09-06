@@ -1451,6 +1451,10 @@
     {
       "date": "2025-09-06T12:50:00",
       "message": "test: implement contract tests between frontend and backend"
+    },
+    {
+      "date": "2025-09-06T12:50:00",
+      "message": "test: add accessibility tests with axe-core"
     }
   ],
   "last_commit_date": "2025-09-06T12:50:00"

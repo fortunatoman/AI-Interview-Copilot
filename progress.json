@@ -1527,6 +1527,10 @@
     {
       "date": "2025-09-08T12:14:00",
       "message": "ci: implement Lighthouse CI for performance budgets"
+    },
+    {
+      "date": "2025-09-08T12:14:00",
+      "message": "ci: add SAST scanning with CodeQL"
     }
   ],
   "last_commit_date": "2025-09-08T12:14:00"

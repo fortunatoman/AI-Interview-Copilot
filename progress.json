@@ -1587,6 +1587,10 @@
     {
       "date": "2025-09-09T09:43:00",
       "message": "infra: set up CloudWatch alarms and dashboards"
+    },
+    {
+      "date": "2025-09-09T09:43:00",
+      "message": "infra: configure centralized logging with CloudWatch Logs"
     }
   ],
   "last_commit_date": "2025-09-09T09:43:00"

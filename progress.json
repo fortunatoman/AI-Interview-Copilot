@@ -1775,6 +1775,10 @@
     {
       "date": "2025-09-10T16:58:00",
       "message": "a11y: implement skip-to-content link"
+    },
+    {
+      "date": "2025-09-10T16:58:00",
+      "message": "a11y: ensure color contrast meets WCAG AA standard"
     }
   ],
   "last_commit_date": "2025-09-10T16:58:00"

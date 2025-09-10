@@ -1771,6 +1771,10 @@
     {
       "date": "2025-09-10T16:58:00",
       "message": "a11y: add focus trap for modal dialogs"
+    },
+    {
+      "date": "2025-09-10T16:58:00",
+      "message": "a11y: implement skip-to-content link"
     }
   ],
   "last_commit_date": "2025-09-10T16:58:00"

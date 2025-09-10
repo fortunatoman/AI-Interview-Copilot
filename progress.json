@@ -1755,6 +1755,10 @@
     {
       "date": "2025-09-10T16:58:00",
       "message": "feat(i18n): add RTL stylesheet for Arabic support"
+    },
+    {
+      "date": "2025-09-10T16:58:00",
+      "message": "feat(i18n): implement automatic language detection from browser"
     }
   ],
   "last_commit_date": "2025-09-10T16:58:00"

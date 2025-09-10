@@ -1743,6 +1743,10 @@
     {
       "date": "2025-09-10T16:58:00",
       "message": "feat(i18n): implement language switcher component"
+    },
+    {
+      "date": "2025-09-10T16:58:00",
+      "message": "feat(i18n): add locale-aware date and currency formatting"
     }
   ],
   "last_commit_date": "2025-09-10T16:58:00"

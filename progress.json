@@ -1791,7 +1791,11 @@
     {
       "date": "2025-09-10T16:58:00",
       "message": "a11y: add alt text enforcement for all images"
+    },
+    {
+      "date": "2025-09-11T13:17:00",
+      "message": "feat(seo): implement React Helmet for dynamic meta tags"
     }
   ],
-  "last_commit_date": "2025-09-10T16:58:00"
+  "last_commit_date": "2025-09-11T13:17:00"
 }

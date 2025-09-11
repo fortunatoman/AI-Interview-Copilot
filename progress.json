@@ -1835,6 +1835,10 @@
     {
       "date": "2025-09-11T13:17:00",
       "message": "feat(analytics): add Mixpanel for product analytics"
+    },
+    {
+      "date": "2025-09-11T13:17:00",
+      "message": "feat(analytics): implement session recording with Hotjar"
     }
   ],
   "last_commit_date": "2025-09-11T13:17:00"

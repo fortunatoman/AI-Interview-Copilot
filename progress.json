@@ -1935,6 +1935,10 @@
     {
       "date": "2025-09-15T09:13:00",
       "message": "fix: resolve foreign key violation on order cancellation"
+    },
+    {
+      "date": "2025-09-15T09:13:00",
+      "message": "fix(email): correct broken links in email templates"
     }
   ],
   "last_commit_date": "2025-09-15T09:13:00"

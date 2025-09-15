@@ -1895,6 +1895,10 @@
     {
       "date": "2025-09-15T09:13:00",
       "message": "fix: resolve race condition in token refresh logic"
+    },
+    {
+      "date": "2025-09-15T09:13:00",
+      "message": "fix(cart): correct total price calculation with multiple discounts"
     }
   ],
   "last_commit_date": "2025-09-15T09:13:00"

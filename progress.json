@@ -1887,6 +1887,10 @@
     {
       "date": "2025-09-12T12:40:00",
       "message": "feat(pwa): add offline support with service worker caching"
+    },
+    {
+      "date": "2025-09-12T12:40:00",
+      "message": "feat(pwa): implement background sync for failed requests"
     }
   ],
   "last_commit_date": "2025-09-12T12:40:00"

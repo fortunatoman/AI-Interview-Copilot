@@ -2007,6 +2007,10 @@
     {
       "date": "2025-09-16T09:33:00",
       "message": "refactor: move business logic from controller to service layer"
+    },
+    {
+      "date": "2025-09-16T09:33:00",
+      "message": "refactor: replace class components with functional components"
     }
   ],
   "last_commit_date": "2025-09-16T09:33:00"

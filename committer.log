@@ -2013,3 +2013,7 @@
 2026-02-24 09:43:41,407 - INFO - [OK] Commit created: refactor: extract token service into separate module
 2026-02-24 09:43:43,594 - INFO - Pushed to GitHub: master
 2026-02-24 09:43:44,596 - INFO - Modified 3 files
+2026-02-24 09:43:45,368 - INFO - Created commit: refactor: move business logic from controller to s...
+2026-02-24 09:43:45,373 - INFO - [OK] Commit created: refactor: move business logic from controller to service layer
+2026-02-24 09:43:47,643 - INFO - Pushed to GitHub: master
+2026-02-24 09:43:48,645 - INFO - Modified 3 files

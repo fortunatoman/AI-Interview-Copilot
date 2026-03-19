@@ -1,4 +1,4 @@
-# AI Interview Copilot
+# AI Interview Assistant
 
 A real-time interview assistant that listens to questions and delivers AI-powered answers with voice synthesis. Upload your resume and job description for context-aware responses.
 

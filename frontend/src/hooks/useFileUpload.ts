@@ -43,7 +43,7 @@ export const useFileUpload = ({ onSuccess, onError }: UseFileUploadOptions): Use
         else if (fileType === 'application/pdf' || fileName.endsWith('.pdf')) {
             const form = new FormData();
             form.append('file', file);
-            const resp = await api.post('/api/files/extract-text', form, { headers: { 'Content-Type': 'multipart/form-data' } });
+            const resp = await api.post('/api/files/extract-text', form);
             const text = resp.data?.text || '';
             if (!text) throw new Error('No text extracted from PDF');
             return text;

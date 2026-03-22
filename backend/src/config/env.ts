@@ -15,11 +15,23 @@ const EnvSchema = z.object({
     OPENAI_API_KEY: z.string().optional(),
     DEEPGRAM_API_KEY: z.string().optional(),
     DEEPGRAM_MODEL: z.string().default('nova-3'),
-    DEEPGRAM_INTERIM_RESULTS: z.boolean().default(true),
-    DEEPGRAM_SMART_FORMAT: z.boolean().default(true),
-    DEEPGRAM_PUNCTUATE: z.boolean().default(true),
+    DEEPGRAM_INTERIM_RESULTS: z.preprocess(
+        (v) => (v === undefined || v === '' ? true : v === 'true' || v === '1'),
+        z.boolean()
+    ),
+    DEEPGRAM_SMART_FORMAT: z.preprocess(
+        (v) => (v === undefined || v === '' ? true : v === 'true' || v === '1'),
+        z.boolean()
+    ),
+    DEEPGRAM_PUNCTUATE: z.preprocess(
+        (v) => (v === undefined || v === '' ? true : v === 'true' || v === '1'),
+        z.boolean()
+    ),
     DEEPGRAM_LANGUAGE: z.string().default('en-US'),
-    DEEPGRAM_ENDPOINTING: z.number().default(500),
+    DEEPGRAM_ENDPOINTING: z.preprocess(
+        (v) => (v === undefined || v === '' ? 500 : Number(v)),
+        z.number()
+    ),
 })
 
 export const env = EnvSchema.parse({

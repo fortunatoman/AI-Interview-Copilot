@@ -3,7 +3,6 @@ import cors from 'cors'
 import helmet from 'helmet'
 import compression from 'compression'
 import pinoHttp from 'pino-http'
-import morgan from 'morgan'
 import { env } from './config/env'
 import { rateLimiter } from './middlewares/rateLimit'
 import { errorHandler } from './middlewares/error'
@@ -23,11 +22,10 @@ export function createApp() {
                 // Allow requests with no origin (like mobile apps or curl requests)
                 if (!origin) return callback(null, true)
 
-                // Allow all origins when credentials are not required
-                // For credentials mode, we need to return the specific origin
+                // Allow the request origin (required when credentials: true)
                 callback(null, origin)
             },
-            // credentials option removed: cross-origin requests will not include credentials (cookies, authorization headers, etc.)
+            credentials: true,
         })
     )
     app.use(helmet())
@@ -36,10 +34,18 @@ export function createApp() {
     app.use(express.json({ limit: '2mb' }))
     app.use(express.urlencoded({ extended: true }))
 
-    app.use(pinoHttp({ logger }))
-
-    // HTTP request logging with Morgan
-    app.use(morgan('combined'))
+    app.use(
+        pinoHttp({
+            logger,
+            customSuccessMessage: (req, res) =>
+                `${req.method} ${req.url} ${res.statusCode}`,
+            customReceivedMessage: (req) => `${req.method} ${req.url}`,
+            serializers: {
+                req: (req) => ({ method: req.method, url: req.url }),
+                res: (res) => ({ statusCode: res.statusCode }),
+            },
+        })
+    )
 
     app.use('/health', healthRouter)
     app.use('/api/openai', openaiRouter)

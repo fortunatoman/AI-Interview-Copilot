@@ -14,12 +14,13 @@ const server = http.createServer(app)
 const io = new IOServer(server, {
     cors: {
         origin: (origin, callback) => {
-            // Allow requests with no origin
+            // Allow requests with no origin (e.g. Postman, native apps)
             if (!origin) return callback(null, true)
 
-            // Allow all origins by returning the specific origin
+            // Reflect request origin (required when credentials: true; cannot use *)
             callback(null, origin)
         },
+        credentials: true,
     },
 })
 

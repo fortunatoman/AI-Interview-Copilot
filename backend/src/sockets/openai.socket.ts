@@ -10,6 +10,7 @@ export function registerOpenAISocket(io: Server) {
                 const { utterance, context, source } = payload || ({} as any)
                 if (!utterance) return
                 const result = await openaiService.detectQuestionAndAnswer(utterance, context)
+                console.log('🔍 result:', result);
                 if (result.isQuestion && result.question) {
                     const detectedId = randomUUID()
                     socket.emit('detect:question', { id: detectedId, question: result.question, source: source || 'typed' })

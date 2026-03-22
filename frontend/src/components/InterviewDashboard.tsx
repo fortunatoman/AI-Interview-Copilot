@@ -218,11 +218,8 @@ export default function InterviewDashboard() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3">
-                            <div className="w-40 h-10">
-                                <img src="/logo.svg" alt="AI Interview Copilot" className="h-10 w-40" />
-                            </div>
                             <div>
-                                <h1 className="text-2xl font-bold text-white">AI Interview Copilot</h1>
+                                <h1 className="text-2xl font-bold text-white">AI Interview Assistant</h1>
                                 <p className="text-sm text-gray-300">Real-time interview question analysis & response generation</p>
                             </div>
                         </div>
@@ -316,6 +313,7 @@ export default function InterviewDashboard() {
                             isMuted={isMuted}
                             // Manual typing integration
                             onManualQuestionSubmit={(q) => {
+                                console.log('🔍 onManualQuestionSubmit:', q);
                                 // Route through backend detection; do not add to history here
                                 try {
                                     const socket = getSocket();
@@ -352,7 +350,7 @@ export default function InterviewDashboard() {
             <div className="bg-[#1a1a1a] border-t border-gray-600 mt-12">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
                     <div className="flex items-center justify-between text-sm text-gray-400">
-                        <p>AI Interview Copilot</p>
+                        <p>AI Interview Assistant</p>
                         <p>Built with React + TypeScript + Tailwind CSS</p>
                     </div>
                 </div>
